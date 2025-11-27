@@ -25,3 +25,14 @@ def gugu (number_4):
         print(f"{number_4} * {i} = {number_4 * i}")
 gugu(number_4)
 
+#4. 리스트 평균 구하기
+numbers = [10, 20, 30, 40, 50]
+def number_aver (numbers):
+    return sum(numbers)/len(numbers)
+print(number_aver(numbers))
+
+#5. 최대값 찾기 함수
+scores_1 = [88, 92, 79, 93, 85]
+def number_ma (scores_1):
+    return max(scores_1)
+print(number_ma(scores_1))
