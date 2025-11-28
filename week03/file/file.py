@@ -10,3 +10,5 @@ f = open("week03/file/새파일.txt", 'r', encoding='utf-8')
 line = f.readline()
 print(line)
 f.close()
+
+f = open("week03/file/새파일.txt","a",encoding='utf-8' )

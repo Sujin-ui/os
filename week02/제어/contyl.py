@@ -14,6 +14,7 @@ while i < 10 :
     print(f"나무를 {i}번 찍습니다" )
     if i == 10 :
         print("나무가 넘어갑니다")
+        break
 
 c=0
 while True: 
